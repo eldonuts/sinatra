@@ -1,2 +1,5 @@
-![] https://www.codeship.io/projects/fed973b0-67b6-0131-7284-52454d5e127c/status
- 
+# donuts.io
+=========
+A test Sinatra site
+
+![](https://www.codeship.io/projects/0de6dfd0-6648-0131-78c5-02c3a0d5948c/status)
