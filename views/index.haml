@@ -3,8 +3,64 @@
     %head
         %title donuts.io
         %link(href="css/bootstrap.css" rel="stylesheet")
-    %body
-        %nav(class="navbar navbar-default navbar-fixed-top" role="nagivation")
+        %link(href="css/navbar-fixed-top.css" rel="stylesheet")
+    %body(data-spy="scroll" data-target=".navbar")
+        %div(class="navbar navbar-inverse navbar-fixed-top" role="navigation")
             %div(class="container")
-                %div(class="header")
-                    %h3(class="text-muted") donuts.io
+                %div(class="navbar-header")
+                    %a(class="navbar-brand")eldonuts
+                %div(class="navbar-collapse collapse")
+                    %ul(class="nav navbar-nav")
+                        %li(class="active")
+                            %a(href="#test1") test1
+                        %li
+                            %a(href="#test2") test2
+                        %li
+                            %a(href="#test3") test3
+                        %li
+                            %a(href="#test4") test4
+
+        %div(class="container")
+            %div(class="jumbotron" id="test1")
+                %h1
+                    test
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+            %div(class="jumbotron"id="test2")
+                %h1
+                    test
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+            %div(class="jumbotron"id="test3")
+                %h1
+                    test
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+            %div(class="jumbotron"id="test4")
+                %h1
+                    test
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+                    %br
+
+        %script(src="https://code.jquery.com/jquery-1.10.2.min.js")
+        %script(src="js/bootstrap.js")         
