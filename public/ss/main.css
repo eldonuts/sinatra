@@ -1,0 +1,13 @@
+#test {
+  color: black; }
+  #test a {
+    font-weight: bold; }
+    #test a:hover {
+      color: red; }
+
+#main {
+  color: black; }
+  #main a {
+    font-weight: bold; }
+    #main a:hover {
+      color: red; }
