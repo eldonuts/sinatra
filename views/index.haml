@@ -4,17 +4,15 @@
         %title donuts.io
         %link(href="ss/bootstrap.min.css" rel="stylesheet")
         %link(href="ss/navbar-fixed-top.css" rel="stylesheet")
-        %link(href="ss/main.scss" rel="stylesheet")
-
+        %link(href="ss/main.css" rel="stylesheet")
         %script(src="https://code.jquery.com/jquery-1.10.2.min.js")
-        %script(src="js/bootstrap.js")
+        %script(src="js/bootstrap.min.js")
         %script(src="js/jquery.stellar.min.js")
 
         %script
             $(function(){
             $.stellar();
             });
-
     %body(data-spy="scroll" data-target=".navbar")
         %div(class="navbar navbar-inverse navbar-fixed-top" role="navigation")
             %div(class="container")
@@ -23,49 +21,15 @@
                 %div(class="navbar-collapse collapse")
                     %ul(class="nav navbar-nav")
                         %li(class="active")
-                            %a(href="#test1") test1
+                            %a(href="#cat1") cat1
                         %li
-                            %a(href="#test2") test2
+                            %a(href="#cat2") cat2
                         %li
-                            %a(href="#test3") test3
-                        %li
-                            %a(href="#test4") test4
+                            %a(href="#cat3") cat3
 
-        %div(class="container")
-            %div(class="jumbotron" id="test1" data-stellar-background-ratio="0.5" style="background-image:url(img/cat.jpg);")
-                %h1
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-            %div(class="jumbotron" id="test2" data-stellar-background-ratio="2" style="background-image:url(img/cat.jpg);")
-                %h1
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-            %div(class="jumbotron" id="test3" data-stellar-background-ratio="1" style="background-image:url(img/cat.jpg);")
-                %h1
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-            %div(class="jumbotron" id="test4" data-stellar-background-ratio="2" style="background-image:url(img/cat.jpg);")
-                %h1
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
-                    %br
 
+
+        %div(class="row")
+            %div(class= "cat1 sixhundred" id="cat1" data-stellar-background-ratio="0.5")
+            %div(class= "cat2 sixhundred" id="cat2" data-stellar-background-ratio="0.5")
+            %div(class= "cat3 sixhundred" id="cat3" data-stellar-background-ratio="1")
