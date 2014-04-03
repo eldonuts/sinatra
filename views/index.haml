@@ -15,10 +15,10 @@
             });
 
     %body(data-spy="scroll" data-target=".navbar")
-        .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
+        .navbar.navbar-fixed-top.navbar-inverse(role="navigation")
             .container
                 .navbar-header
-                    %span.glyphicon.glyphicon-home.homeg
+                    %a.navbar-brand(href="#") eldonuts
                 .navbar-collapse.collapse
                     %ul.nav.navbar-nav
                         %li.active
@@ -27,10 +27,15 @@
                             %a(href="#cat2") cat2
                         %li
                             %a(href="#cat3") cat3
-
-
-
         .row
             .cat1.sixhundred#cat1(data-stellar-background-ratio="0.5")
+                .container
+                    .row.top50
+                        .col-md-3
+                            %img.img-circle.img200(src="img/dog.jpg")
+                        .col-md-9
+                            .jumbotron
+                                %h1 eldonuts!
+                                Just a place for me to try out some things.
             .cat2.sixhundred#cat2(data-stellar-background-ratio="0.5")
             .cat3.sixhundred#cat3(data-stellar-background-ratio="1")
